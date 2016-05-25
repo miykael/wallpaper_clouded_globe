@@ -1,6 +1,6 @@
 # Live Globe Wallpaper
 
-The script ``clouded_globe.sh`` generates a satellite image from the whole planet (with cloud coverage) from https://worldview.earthdata.nasa.gov. This image can than be used as a wallpaper. Following picture is an example of such a high resolution image (8000x3000)from the 1st of March, 2016.
+The script ``clouded_globe.sh`` generates a satellite image from the whole planet (with cloud coverage) from https://worldview.earthdata.nasa.gov. This image can than be used as a wallpaper. Following picture is an example of such a high resolution image (8000 x 3000 pixels) from the 1st of March, 2016.
 
 <img src="static/wallpaper_clouded_globe.jpg" width="8000">
 
