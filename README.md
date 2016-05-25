@@ -1,10 +1,10 @@
 # Live Globe Wallpaper
 
-The script ``clouded_globe.sh`` generates a satellite image from the whole planet (with cloud coverage) from https://worldview.earthdata.nasa.gov that can than be used as a wallpaper. Following picture is an example of such a high resolution image from 1st of March, 2016.
+The script ``clouded_globe.sh`` generates a satellite image from the whole planet (with cloud coverage) from https://worldview.earthdata.nasa.gov. This image can than be used as a wallpaper. Following picture is an example of such a high resolution image (8000x3000)from the 1st of March, 2016.
 
 <img src="static/wallpaper_clouded_globe.jpg" width="8000">
 
-The idea for the script came from [this homepage](http://www.webupd8.org/2009/09/real-time-earth-wallpaper-for-linux.html).
+The idea for this came from [this homepage](http://www.webupd8.org/2009/09/real-time-earth-wallpaper-for-linux.html).
 
 
 # How to set it up
@@ -13,7 +13,7 @@ The idea for the script came from [this homepage](http://www.webupd8.org/2009/09
 
 ```bash
 mkdir ~/wallpaper_clouded_globe
-wget https://github.com/miykael/wallpaper_clouded_globe/blob/master/clouded_globe.sh \
+wget https://raw.githubusercontent.com/miykael/wallpaper_clouded_globe/master/clouded_globe.sh \
     -O ~/wallpaper_clouded_globe/clouded_globe.sh
 chmod +x ~/wallpaper_clouded_globe/clouded_globe.sh
 ```
@@ -21,7 +21,7 @@ chmod +x ~/wallpaper_clouded_globe/clouded_globe.sh
 **Second**, run the script at least once to create the current image of the clouded globe:
 
 ```bash
-bash clouded_globe.sh &
+bash ~/wallpaper_clouded_globe/clouded_globe.sh &
 ```
 
 **Third**, go into the folder `~/.gnome2`, right click on the `wallpaper_clouded_globe.jpg` and select it as Wallpaper.
