@@ -24,8 +24,8 @@ chmod +x ~/wallpaper_clouded_globe/clouded_globe.sh
 bash ~/wallpaper_clouded_globe/clouded_globe.sh &
 ```
 
-**Third**, go into the folder `~/.gnome2`, right click on the `wallpaper_clouded_globe.jpg` and select it as Wallpaper.
+**Third**, right click on your desktop and select "Change Desktop Background". This will open the Appearance dialog. Now click on the small '+' symbol below the wallpapers on the right and add `wallpaper_clouded_globe.jpg`, which is stored under `~/.gnome2`.
 
-**Fourth**, go to System > Preferences > Startup Applications and select "Add". Under Name, put "Wallpaper Clouded Globe" and under Command put "~/wallpaper_clouded_globe/clouded_globe.sh".
+**Fourth**, go to System > Preferences > Startup Applications and select "Add". Under *Name*, put "Wallpaper Clouded Globe" and under *Command* put "~/wallpaper_clouded_globe/clouded_globe.sh".
 
 This is it! Now everytime you start the PC, the script will be run and update your wallpaper.
