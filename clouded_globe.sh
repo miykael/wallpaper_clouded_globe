@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Go into folder where the script should be executed
-cd ~/.gnome2/
+cd ~/wallpaper_clouded_globe/
 
 # Run script indefinitely
 while [  1 ]
@@ -38,7 +38,7 @@ do
 
         # Sleep for 30s if loop didn't work
         sleep 30
-            let COUNTER=COUNTER+1 
+            let COUNTER=COUNTER+1
     done
 
     # After completion the script will wait for 24 hours
