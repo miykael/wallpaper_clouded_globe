@@ -5,7 +5,6 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/miykael/wallpaper_clouded_globe.svg)](https://GitHub.com/miykael/wallpaper_clouded_globe/graphs/contributors/)
 [![GitHub Commits](https://github-basic-badges.herokuapp.com/commits/miykael/wallpaper_clouded_globe.svg)](https://github.com/miykael/wallpaper_clouded_globe/commits/master)
 [![GitHub size](https://github-size-badge.herokuapp.com/miykael/wallpaper_clouded_globe.svg)](https://github.com/miykael/wallpaper_clouded_globe/archive/master.zip)
-[![GitHub HitCount](http://hits.dwyl.io/miykael/wallpaper_clouded_globe.svg)](http://hits.dwyl.io/miykael/wallpaper_clouded_globe)
 
 The script ``clouded_globe.sh`` generates a satellite image from the whole planet (with cloud coverage) from https://worldview.earthdata.nasa.gov. This image can than be used as a wallpaper. Following picture is an example of such a high resolution image (8000 x 3000 pixels) from the 1st of March, 2016.
 
